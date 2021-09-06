@@ -1,0 +1,21 @@
+---
+info: 
+  title: onefb analog output object
+  version: 2021-09-05
+  copyright: "Copyright 2021, Michael J. Koster. All rights reserved."
+  license: "https://github.com/one-data-model/oneDM/blob/master/LICENSE"
+
+namespace: onefb: https://onedm.org/village/onefb
+
+defaultnamespace: onefb
+
+sdfAction:
+  UpdatelnkedObject:
+    Description: Transfer OutputValue or PresentValue of this object to InputValue or PresentValue of the linked object
+                 OutputValue and InputValue, if present, are used instead of PresentValue
+    sdfInput: 
+      PresentValue:
+      OutputValue:
+      OutputLink:
+  ConvertPresentValue:
+    Description: convert InputValue to PresentValue, or PresentValue to OutputValue
