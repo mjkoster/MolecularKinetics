@@ -37,6 +37,6 @@ sdfObject:
       TimerTickUpdate: 
         description: "Emitted when CurrentCount > CountAtLastTick + CountPerTick, carries the CurrentCount
                       Value, and is used to update the CurrentCount property of linked objects"
-        sdfOutput: 
+        sdfOutputData: 
           CurrentCount:
             sdfLink: "#/sdfObject/SchedulerTimer/sdfProperty/CurrentCount"
