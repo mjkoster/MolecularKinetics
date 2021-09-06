@@ -30,7 +30,7 @@ sdfObject:
     sdfAction:
       UpdateCurrentCount:
         description: "An external time counter periodically updates the CurrentCount and calls this handler"
-        sdfInput:
+        sdfInputData:
           CurrentCount: 
             sdfLink: "#/sdfObject/SchedulerTimer/sdfProperty/CurrentCount"
     sdfEvent:

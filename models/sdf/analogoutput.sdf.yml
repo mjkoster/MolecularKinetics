@@ -46,7 +46,7 @@ sdfObject:
                        OutputValue = ( ( PresentValue-UnitMinimum * 
                        OutputMaximum-OutputMinimum / UnitMaximum-UnitMinimum )
                        + OutputMinimum ) % OutputResolution
-        sdfInput: 
+        sdfInputData: 
           PresentValue: 
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
           OutputMinimum:
@@ -59,17 +59,16 @@ sdfObject:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/UnitMinimum"
           UnitMaximum:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/UnitMaximum"
-        sdfOutput:
+        sdfOutputData:
           OutputValue:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
     sdfEvent:
       LinkedObjectUpdate:
-        description: Transfer the OutputValue contents to the InputValue property 
-                     or to the PresentValue property of the objects pointed to 
-                     by the OutputLink
-        sdfOutput:
+        description: Emitted on update. Transfer the OutputValue or PresentValue contents to the InputValue property 
+                     or to the PresentValue property of the objects pointed to by the OutputLink
+        sdfOutputData:
           TransmittedValue:
-            sdfPreferredChoice: "#/sdfObject/AnalogOutput/sdfEvent/LinkedObjectUpdate/sdfOutput/TransmittedValue/sdfChoice/OutputValue"
+            sdfPreferredChoice: "#/sdfObject/AnalogOutput/sdfEvent/LinkedObjectUpdate/sdfOutputData/TransmittedValue/sdfChoice/OutputValue"
             sdfChoice:
               OutputValue:
                 sdfLink: "#/sdfObject/AnalogOutput/sdfProperty/OutputValue"
