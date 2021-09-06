@@ -12,8 +12,7 @@ defaultnamespace: onefb
 sdfObject: 
   AnalogOutput: 
     sdfRef: /#/sdfObject/BaseObject
-    Description: "Module for analog output, does value scaling and unit binding of an incoming PresentValue property"
-    ObjectTypeID: 4900,
+    description: "Module for analog output, does value scaling and unit binding of an incoming PresentValue property"
 
     sdfProperty:
       PresentValue:
@@ -42,11 +41,11 @@ sdfObject:
         default: 1
 
     sdfAction:
-      ConvertFromPresentValue:
-        Description: Convert Unit range to output range ->
-                       OutputValue = ( PresentValue-UnitMinimum * 
+      UpdatePresentValue:
+        description: Convert Unit range to output range ->
+                       OutputValue = ( ( PresentValue-UnitMinimum * 
                        OutputMaximum-OutputMinimum / UnitMaximum-UnitMinimum )
-                       + OutputMinimum % OutputResolution
+                       + OutputMinimum ) % OutputResolution
         sdfInput: 
           PresentValue: 
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
@@ -63,13 +62,16 @@ sdfObject:
         sdfOutput:
           OutputValue:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
-
-      UpdateLinkedObject:
-        Description: Transfer the OutputValue contents to the InputValue property 
+    sdfEvent:
+      LinkedObjectUpdate:
+        description: Transfer the OutputValue contents to the InputValue property 
                      or to the PresentValue property of the objects pointed to 
                      by the OutputLink
-        sdfInput:
-          OutputValue:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
-          OutputLink:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputLink"
+        sdfOutput:
+          TransmittedValue:
+            sdfPreferredChoice: "#/sdfObject/AnalogOutput/sdfEvent/LinkedObjectUpdate/sdfOutput/TransmittedValue/sdfChoice/OutputValue"
+            sdfChoice:
+              OutputValue:
+                sdfLink: "#/sdfObject/AnalogOutput/sdfProperty/OutputValue"
+              PresentValue:
+                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"

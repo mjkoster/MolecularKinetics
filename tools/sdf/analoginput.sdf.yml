@@ -12,8 +12,7 @@ defaultnamespace: onefb
 sdfObject: 
   AnalogInput: 
     sdfRef: /#/sdfObject/BaseObject
-    Description: "Module for analog input, does value scaling and unit binding of a PresentValue property"
-    ObjectTypeID: 4900,
+    description: "Module for analog input, does value scaling and unit binding of a PresentValue property"
 
     sdfProperty:
       PresentValue:
@@ -32,12 +31,12 @@ sdfObject:
         default: .1
       OutputLink:
         sdfRef: /#/sdfData/ObjectLink
-      SourceValue:
+      InputValue:
         type: number
-      SourceMinimum:
+      InputMinimum:
         type: number
         default: 0
-      SourceMaximum:
+      InputMaximum:
         type: number
         default: 1023
       CurrentTime:
@@ -46,22 +45,23 @@ sdfObject:
         type: number
       ExecuteInterval:
         type: number
-      SourceLink:
+      InputLink:
         sdfRef: /#/sdfData/ObjectLink
 
     sdfAction:
-      ConvertToPresentValue:
-        Description: Convert source range to Unit range ->
-                       PresentValue = ( SourceValue-SourceMinimum * 
-                       UnitMaximum-UnitMinimum / SourceMaximum-SourceMinimum )
-                       + UnitMinimum % UnitResolution
+      UpdateInputValue:
+        description:  Trigger on updates of InputValue
+                      Convert input range to Unit range ->
+                      PresentValue = ( ( InputValue-InputMinimum * 
+                      UnitMaximum-UnitMinimum / InputMaximum-InputMinimum )
+                      + UnitMinimum ) % UnitResolution
         sdfInput: 
-          SourceValue: 
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/SourceValue"
-          SourceMinimum:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/SourceMinimum"
-          SourceMaximum:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/SourceMaximum"
+          InputValue: 
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputValue"
+          InputMinimum:
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputMinimum"
+          InputMaximum:
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputMaximum"
           UnitMinimum:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/UnitMinimum"
           UnitMaximum:
@@ -70,23 +70,27 @@ sdfObject:
           PresentValue:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
 
-      UpdateLinkedObject:
-        Description: Transfer the OutputValue contents to the InputValue property 
+      TimeoutFunction:
+        description: Execute when LastExecuteTime + ExecuteInterval > CurrentTIme (single wrap-around tolerant)
+                     Fetch the value of the PresentValue property of the object pointed to by the Input Link and
+                     update the InputValue, resulting in conversion, PresentValue update, and output link processing
+        sdfInput:
+          InputLink:
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputLink"
+        sdfOutput:
+          InputValue:
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputValue"
+
+    sdfEvent:
+      LinkedObjectUpdate:
+        description: Transfer the OutputValue contents to the InputValue property 
                      or to the PresentValue property of the objects pointed to 
                      by the OutputLink
-        sdfInput:
-          PresentValue:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
-          OutputLink:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputLink"
-
-      TimeoutFunction:
-        Description: Execute when LastExecuteTime + ExecuteInterval > CurrentTIme (single wrap-around tolerant)
-                     Fetch the value of the PresentValue property of the object pointed to by the Input Link and
-                     update the SourceValue, resulting in conversion, PresentValue update, and output link processing
-        sdfInput:
-          SourceLink:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/SourceLink"
         sdfOutput:
-          SourceValue:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/SourceValue"
+          TransmittedValue:
+            sdfPreferredChoice: "#/sdfObject/AnalogInput/sdfEvent/LinkedObjectUpdate/sdfOutput/TransmittedValue/sdfChoice/OutputValue"
+            sdfChoice:
+              OutputValue:
+                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
+              PresentValue:
+                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
