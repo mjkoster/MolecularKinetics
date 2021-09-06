@@ -1,0 +1,49 @@
+---
+info: 
+  title: onefb digital output object
+  version: 2021-09-05
+  copyright: "Copyright 2021, Michael J. Koster. All rights reserved."
+  license: "https://github.com/one-data-model/oneDM/blob/master/LICENSE"
+
+namespace: onefb: https://onedm.org/village/onefb
+
+defaultnamespace: onefb
+
+sdfObject: 
+  AnalogOutput: 
+    sdfRef: /#/sdfObject/BaseObject
+    description: "Module for digital output, does polarity correction for the PresentValue property"
+
+    sdfProperty:
+      PresentValue:
+        type: boolean
+      OutputLink:
+        sdfRef: /#/sdfData/ObjectLink
+      OutputValue:
+        type: boolean
+      InvertPolarity:
+        type: boolean
+        default: false
+
+    sdfAction:
+      UpdatePresentValue:
+        description:  Trigger on updates of PresentValue
+                      Correct polarity -> OutputValue = PolarityInvert XOR PresentValue
+        sdfInputData: 
+          PresentValue: 
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
+        sdfOutputData:
+          OutputValue:
+            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
+    sdfEvent:
+      LinkedObjectUpdate:
+        description: Emitted on update. Transfer the OutputValue or PresentValue contents to the InputValue property 
+                     or to the PresentValue property of the objects pointed to by the OutputLink
+        sdfOutputData:
+          TransmittedValue:
+            sdfPreferredChoice: "#/sdfObject/AnalogOutput/sdfEvent/LinkedObjectUpdate/sdfOutputData/TransmittedValue/sdfChoice/OutputValue"
+            sdfChoice:
+              OutputValue:
+                sdfLink: "#/sdfObject/AnalogOutput/sdfProperty/OutputValue"
+              PresentValue:
+                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
