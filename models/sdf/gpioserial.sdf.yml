@@ -22,6 +22,9 @@ sdfObject:
         type: number
       SelectPin:
         type: number
+      BusAddress:
+        description: Address to use for this device on a shared bus e.g. I2C
+        type: number
       GpioType: 
         sdfChoice:
           AnalogInput:
