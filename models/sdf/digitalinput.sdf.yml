@@ -50,10 +50,10 @@ sdfObject:
                      update the InputValue, resulting in conversion, PresentValue update, and output link processing
         sdfInputData:
           InputLink:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputLink"
+            sdfLink: "#/sdfObject/DigitalInput/sdfProperty/InputLink"
         sdfOutputData:
           InputValue:
-            sdfLink: "#/sdfObject/AnalogInput/sdfProperty/InputValue"
+            sdfLink: "#/sdfObject/DigitalInput/sdfProperty/InputValue"
 
     sdfEvent:
       LinkedObjectUpdate:
@@ -61,9 +61,9 @@ sdfObject:
                      or to the PresentValue property of the objects pointed to by the OutputLink
         sdfOutputData:
           TransmittedValue:
-            sdfPreferredChoice: "#/sdfObject/AnalogInput/sdfEvent/LinkedObjectUpdate/sdfOutputData/TransmittedValue/sdfChoice/OutputValue"
+            sdfPreferredChoice: "#/sdfObject/DigitalInput/sdfEvent/LinkedObjectUpdate/sdfOutputData/TransmittedValue/sdfChoice/OutputValue"
             sdfChoice:
               OutputValue:
-                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/OutputValue"
+                sdfLink: "#/sdfObject/DigitalInput/sdfProperty/OutputValue"
               PresentValue:
-                sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
+                sdfLink: "#/sdfObject/DigitalInput/sdfProperty/PresentValue"
