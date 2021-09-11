@@ -3,7 +3,7 @@
 An open source oxygen generator designed to deliver 10-20 liters per minute of medical grade oxygen
 
 ### Highlights:
-* PSA air separator with design parameters in the same range as [Oxykit] (https://oxikit.com/) 
+* PSA air separator with design parameters in the same range as [Oxykit](https://oxikit.com/) 
 * Incorporates a silica-based air dryer using TSA to regenerate
 * Highly serviceable using common tools and skills
 * All-metal construction with tri-clamp and SAE flare service connections
