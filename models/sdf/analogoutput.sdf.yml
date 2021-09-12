@@ -41,7 +41,7 @@ sdfObject:
         default: 1
 
     sdfAction:
-      UpdatePresentValue:
+      UpdateOutputValue:
         description: Convert Unit range to output range ->
                        OutputValue = ( ( PresentValue-UnitMinimum * 
                        OutputMaximum-OutputMinimum / UnitMaximum-UnitMinimum )

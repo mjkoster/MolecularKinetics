@@ -26,7 +26,7 @@ sdfObject:
         default: false
 
     sdfAction:
-      UpdatePresentValue:
+      UpdateOutputValue:
         description:  Trigger on updates of PresentValue
                       Correct polarity -> OutputValue = PolarityInvert XOR PresentValue
         sdfInputData: 

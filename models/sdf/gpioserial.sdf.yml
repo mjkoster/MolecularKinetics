@@ -41,9 +41,9 @@ sdfObject:
             type: boolean
       OutputLink:
         sdfRef: /#/sdfData/ObjectLink
-      CurrentTime:
+      CurrentMS:
         type: number
-      LastSampleTime:
+      LastSampleMS:
         type: number
       SampleInterval:
         type: number
@@ -52,7 +52,7 @@ sdfObject:
       InitializeDevice:
         description: Operate the initialization state machine on the serial device
       SampleInput:
-        description: Trigger on update of CurrentTime, Execute when LastSampleTime + SampleInterval > CurrentTime 
+        description: Trigger on update of CurrentMS, Execute when LastSampleMS + SampleInterval > CurrentMS 
                     (single wrap-around tolerant) Read the state of the I/O pin and update the PresentaValue property
         sdfOutputData:
           PresentValue:

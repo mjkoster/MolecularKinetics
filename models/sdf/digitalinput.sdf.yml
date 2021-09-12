@@ -24,9 +24,9 @@ sdfObject:
       InvertPolarity:
         type: boolean
         default: false
-      CurrentTime:
+      CurrentMS:
         type: number
-      LastExecuteTime:
+      LastExecuteMS:
         type: number
       ExecuteInterval:
         type: number
@@ -45,7 +45,7 @@ sdfObject:
             sdfLink: "#/sdfObject/AnalogInput/sdfProperty/PresentValue"
 
       FetchInput:
-        description: Execute when LastExecuteTime + ExecuteInterval > CurrentTIme (single wrap-around tolerant)
+        description: Execute when LastExecuteMS + ExecuteInterval > CurrentMS (single wrap-around tolerant)
                      Fetch the value of the PresentValue property of the object pointed to by the Input Link and
                      update the InputValue, resulting in conversion, PresentValue update, and output link processing
         sdfInputData:

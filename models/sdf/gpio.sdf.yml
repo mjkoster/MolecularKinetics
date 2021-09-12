@@ -36,16 +36,16 @@ sdfObject:
             maximum: 255
       OutputLink:
         sdfRef: /#/sdfData/ObjectLink
-      CurrentTime:
+      CurrentMS:
         type: number
-      LastSampleTime:
+      LastSampleMS:
         type: number
       SampleInterval:
         type: number
 
     sdfAction:
       SampleInputPin:
-        description: Trigger on update of CurrentTime, Execute when LastSampleTime + SampleInterval > CurrentTime 
+        description: Trigger on update of CurrentMS, Execute when LastSampleMS + SampleInterval > CurrentMS 
                     (single wrap-around tolerant) Read the state of the I/O pin and update the PresentaValue property
         sdfInputData: 
           PinNumber: 
