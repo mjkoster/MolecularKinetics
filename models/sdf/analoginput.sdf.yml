@@ -12,7 +12,7 @@ defaultnamespace: onefb
 sdfObject: 
   AnalogInput: 
     sdfRef: /#/sdfObject/BaseObject
-    description: "Module for analog input, does value scaling and unit binding of a PresentValue property"
+    description: "Module for analog input, does value scaling and unit binding to a PresentValue property"
 
     sdfProperty:
       PresentValue:
