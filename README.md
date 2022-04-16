@@ -1,4 +1,4 @@
-# O24U
+# Molecular Kinetics Project
 
 ## Overview
 
