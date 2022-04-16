@@ -2,7 +2,7 @@
 
 ## Overview
 
-A project to provide modular O2 generation capacity in the commercially underserved range between 0.1 and 2 mtpd.
+Open source project to provide modular O2 generation capacity in the commercially underserved range between 0.1 and 2 mtpd.
 
 ## Deliverables
 - A reference unit using conventional PSA architecture scaled to 15 slpm capacity, modeled after the Oxikit project.
