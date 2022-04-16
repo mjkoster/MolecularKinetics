@@ -10,14 +10,14 @@ Open source project to provide modular O2 generation capacity in the commerciall
 - A test stand with a 500g column for small scale experimental validation
 - P&I diagrams
 - Schematics and PCB layouts for RTUs, and control wiring diagrams
-- Open source control software using familiar components
+- Open source framework for control software https://github.com/mjkoster/ObjectFlow
 
 ## Status:
 
 - The test stand is assembled and ready for filling and testing
 - The PSA reference unit is 95%+ assembled. Left to do is terminate the wiring at RTU and equipment ends
 - The VPSA prototype slice is 80% assembled. Left to do is O2 plmbing, control box assembly, chassis wiring, column internals
-- Also waiting for software.
+- Control software based on https://github.com/mjkoster/ObjectFlow.
 
 ## VPSA system slice module
 
