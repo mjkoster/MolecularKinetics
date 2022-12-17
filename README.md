@@ -2,4 +2,4 @@
 
 ## Overview
 
-Fun with van der Waals force
+Fun with the van der Waals force
