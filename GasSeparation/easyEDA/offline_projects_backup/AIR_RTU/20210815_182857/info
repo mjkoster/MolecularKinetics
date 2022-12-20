@@ -1,0 +1,175 @@
+{
+  "uuid": "637a0c28ac3847e233d67c9757b26d4b",
+  "path": "Offline/AIR_RTU",
+  "name": "AIR_RTU",
+  "content": "",
+  "created_at": "2021-08-15 11:37:15",
+  "updated_at": "2021-08-15 18:28:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "10dd945832da951a39474b1c2da945ff",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "137c3ede2d674e0aaf68f206bc97c994": 12,
+        "8af5eaf87cd94f5ca4ee2d4b2c30c10d": 3,
+        "213d060e6f634ff09402766377a77388": 3,
+        "0d28140272f64cc3adca92cc39ceb3ff": 1,
+        "fe899e2185d44083b2709d9ded84d18e": 1,
+        "28a3d2b952dc4b02a3c86d52552454f9": 1,
+        "cca30d5947f8459f8f8686d8e2c2e60f": 2,
+        "55d49802f5754f73a03c63bfb6415d9a": 1,
+        "0c00fbc585424957a97a8e92af0d867b": 1,
+        "7365f58ca6e948549e329ae4964c87f0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          1,
+          "10MM DIA. 5MM LS",
+          "C1",
+          {
+            "BOM_Manufacturer Part": "UKZ1H102MHM",
+            "BOM_Supplier Part": "647-UKZ1H102MHM",
+            "BOM_Supplier": "Mouser",
+            "puuid": "363623bf720046cf9799da4f9e23e0bf",
+            "uuid": "0c00fbc585424957a97a8e92af0d867b"
+          }
+        ],
+        [
+          "HEADER 2 PIN",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54-1*2PFemale",
+            "BOM_Supplier Part": "C49661",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Assembly Type": "manualWeld",
+            "BOM_Paste Type": "expand",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "28a3d2b952dc4b02a3c86d52552454f9"
+          }
+        ],
+        [
+          "HEADER 8 PIN",
+          1,
+          "HDR-TH_8P-P2.54-V_A2541HWV-8P",
+          "H5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C225505",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A2541HWV-8P",
+            "puuid": "f3d56e252a14426796df926e980254c5",
+            "uuid": "0d28140272f64cc3adca92cc39ceb3ff"
+          }
+        ],
+        [
+          "HEADER 5 PIN",
+          3,
+          "HEADER_5_PINS_0.100",
+          "H9,H10,H11",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "dabc6ccfdb174e6f9e0be2458f27b030",
+            "uuid": "213d060e6f634ff09402766377a77388"
+          }
+        ],
+        [
+          "Screw_terminal_3P_5.08mm",
+          12,
+          "SCREW_TERMINAL_3P_5.08",
+          "J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12",
+          {
+            "BOM_Manufacturer Part": "E-Simpo",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Amazon",
+            "puuid": "7cef4af3dfbf4fa799f9cffb7b3cd239",
+            "uuid": "137c3ede2d674e0aaf68f206bc97c994"
+          }
+        ],
+        [
+          "FRC_26PIN",
+          1,
+          "FRC-26",
+          "PL1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36782bbee95b44bba11bfc6ec800e571",
+            "uuid": "7365f58ca6e948549e329ae4964c87f0"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "AXIAL-0.4",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fa1662f60f414c68840027391272bb3f",
+            "uuid": "55d49802f5754f73a03c63bfb6415d9a"
+          }
+        ]
+      ],
+      "updateTime": 1629072975,
+      "createTime": 1629052797,
+      "histories": [],
+      "created_at": "2021-08-15 11:39:57",
+      "updated_at": "2021-08-15 17:16:15"
+    },
+    {
+      "uuid": "c0c6669b55f2b6e497fe3987476d422b",
+      "puuid": "637a0c28ac3847e233d67c9757b26d4b",
+      "title": "PCB_AIR_RTU",
+      "filename": "PCB_AIR_RTU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7cef4af3dfbf4fa799f9cffb7b3cd239": 12,
+        "363623bf720046cf9799da4f9e23e0bf": 1,
+        "d6ad405b52c74c018892064ee78d595f": 3,
+        "e6b180e1316a4d0690f78b72797504c2": 1,
+        "f3d56e252a14426796df926e980254c5": 1,
+        "0b249d6778ad47ef8fc2b1433a16185b": 1,
+        "405b4840a8a6494486052d8d9422920e": 2,
+        "dabc6ccfdb174e6f9e0be2458f27b030": 3,
+        "fa1662f60f414c68840027391272bb3f": 1,
+        "36782bbee95b44bba11bfc6ec800e571": 1
+      },
+      "BOM": [],
+      "updateTime": 1629077337,
+      "createTime": 1629053184,
+      "histories": [],
+      "created_at": "2021-08-15 11:46:24",
+      "updated_at": "2021-08-15 18:28:57"
+    }
+  ],
+  "sort": [],
+  "title": "AIR_RTU",
+  "foldername": "AIR_RTU",
+  "schfilename": "AIR_RTU.json",
+  "schfilemtime": 1629072975111
+}

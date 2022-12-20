@@ -1,0 +1,137 @@
+{
+  "uuid": "9fbe5f06fc6a39a8e9004780f1cdb023",
+  "path": "Offline/O2_RTU",
+  "name": "O2_RTU",
+  "content": "RTU for the O2 Side and HMI of the O24U system",
+  "created_at": "2021-08-14 07:24:40",
+  "updated_at": "2021-08-14 09:17:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "636f3fca75dda5e744a438090f3f0940",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "3dc1dd37f5c4b430ee80e557474b3b9d",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fc7102c37b3e4b16931810cb031c3338": 1,
+        "f1060a099e0e46428e1dc65ee5b996a3": 8,
+        "884e3f1c40ea4956913a37aed2f58ba2": 2,
+        "f45f196aa5aa475588bd1f46b2ec0596": 1,
+        "7bb5b439e98d4ab2b5f6590b2360126f": 1,
+        "0d28140272f64cc3adca92cc39ceb3ff": 1,
+        "ee9de955035e499ca2f1632fdce44754": 1,
+        "cca30d5947f8459f8f8686d8e2c2e60f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 8 PIN",
+          1,
+          "HDR-TH_8P-P2.54-V_A2541HWV-8P",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C225505",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A2541HWV-8P",
+            "puuid": "f3d56e252a14426796df926e980254c5",
+            "uuid": "0d28140272f64cc3adca92cc39ceb3ff"
+          }
+        ],
+        [
+          "MTA03-100",
+          8,
+          "10X03MTA",
+          "J1,J2,J3,J4,J5,J6,J7,J11",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9424057a108d4417835a6667114da06b",
+            "uuid": "f1060a099e0e46428e1dc65ee5b996a3"
+          }
+        ],
+        [
+          "MTA05-100",
+          2,
+          "10X05MTA",
+          "J8,J9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9c621537994c443fb65a6f5bcfacfd36",
+            "uuid": "884e3f1c40ea4956913a37aed2f58ba2"
+          }
+        ],
+        [
+          "MTA04-100",
+          1,
+          "10X04MTA",
+          "J10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f1e7a112ff2649d6a5d704348a8ad6fd",
+            "uuid": "7bb5b439e98d4ab2b5f6590b2360126f"
+          }
+        ],
+        [
+          "HEADER 4 PIN",
+          1,
+          "HDR-4X1/2.54",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x4",
+            "BOM_Supplier Part": "C124413",
+            "puuid": "2a7c46b08e2d4268a933927544c2c7a7",
+            "uuid": "ee9de955035e499ca2f1632fdce44754"
+          }
+        ],
+        [
+          "Mega_2560_Pro_Mini_(Working)",
+          1,
+          "ARDUINO_MEGA_2560_PRO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a63e747ef6fe4b3f97adb868a970ffce",
+            "uuid": "fc7102c37b3e4b16931810cb031c3338"
+          }
+        ],
+        [
+          "8 Pin Ribbon Connector",
+          1,
+          "8 PIN RIBBON CONNECTOR",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "cde2311b2a9247018a792f97c9b5eb1a",
+            "uuid": "f45f196aa5aa475588bd1f46b2ec0596"
+          }
+        ]
+      ],
+      "updateTime": 1628957858,
+      "createTime": 1628951437,
+      "histories": [],
+      "created_at": "2021-08-14 07:30:37",
+      "updated_at": "2021-08-14 09:17:38"
+    }
+  ],
+  "sort": [],
+  "title": "O2_RTU",
+  "foldername": "O2_RTU",
+  "schfilename": "O2_RTU.json",
+  "schfilemtime": 1628957858985
+}

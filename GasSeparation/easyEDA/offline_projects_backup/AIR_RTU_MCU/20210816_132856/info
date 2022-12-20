@@ -1,0 +1,88 @@
+{
+  "uuid": "229be5234f96aa27a65922dbfcb01d68",
+  "path": "Offline/AIR_RTU_MCU",
+  "name": "AIR_RTU_MCU",
+  "content": "",
+  "created_at": "2021-08-16 13:26:12",
+  "updated_at": "2021-08-16 13:26:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f81959327e32928ae74376dc461425e5",
+      "puuid": "229be5234f96aa27a65922dbfcb01d68",
+      "title": "PCB_AC_RTU_MCU",
+      "filename": "PCB_AC_RTU_MCU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a63e747ef6fe4b3f97adb868a970ffce": 1,
+        "3bc4c42adc1d419cacfa471a006be93f": 1,
+        "dabc6ccfdb174e6f9e0be2458f27b030": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 5 PIN",
+          1,
+          "HEADER_5_PINS_0.100",
+          "H10",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "dabc6ccfdb174e6f9e0be2458f27b030",
+            "uuid": "213d060e6f634ff09402766377a77388"
+          }
+        ],
+        [
+          "Mega_2560_Pro_Mini_(Working)",
+          1,
+          "ARDUINO_MEGA_2560_PRO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a63e747ef6fe4b3f97adb868a970ffce",
+            "uuid": "fc7102c37b3e4b16931810cb031c3338"
+          }
+        ],
+        [
+          "USB-B12-BRW",
+          1,
+          "USB-B-TH_USB-B12-BRW",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720550",
+            "BOM_Manufacturer": "XUNPU",
+            "BOM_Manufacturer Part": "USB-B12-BRW",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3bc4c42adc1d419cacfa471a006be93f",
+            "uuid": "081604101abb42e3b75ddb815d39e6e9"
+          }
+        ]
+      ],
+      "updateTime": 1629145572,
+      "createTime": 1629145572,
+      "histories": [],
+      "created_at": "2021-08-16 13:26:12",
+      "updated_at": "2021-08-16 13:26:12"
+    }
+  ],
+  "sort": [],
+  "title": "AIR_RTU_MCU",
+  "foldername": "AIR_RTU_MCU",
+  "schfilename": "AIR_RTU_MCU.json",
+  "schfilemtime": 1629145572489.8484
+}

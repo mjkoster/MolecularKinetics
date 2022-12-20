@@ -1,0 +1,107 @@
+{
+  "uuid": "efc3b8a842592aa900cac5a0826336de",
+  "path": "Offline/AC_RTU_MCU",
+  "name": "AC_RTU_MCU",
+  "content": "",
+  "created_at": "2021-08-16 09:04:55",
+  "updated_at": "2021-08-16 12:12:47",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "37896bfc5fbbac3441f2ff70197619f1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "cb75d383a8a7c631039eff36dd2feddb",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fc7102c37b3e4b16931810cb031c3338": 1,
+        "081604101abb42e3b75ddb815d39e6e9": 1,
+        "213d060e6f634ff09402766377a77388": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 5 PIN",
+          1,
+          "HEADER_5_PINS_0.100",
+          "H10",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "dabc6ccfdb174e6f9e0be2458f27b030",
+            "uuid": "213d060e6f634ff09402766377a77388"
+          }
+        ],
+        [
+          "Mega_2560_Pro_Mini_(Working)",
+          1,
+          "ARDUINO_MEGA_2560_PRO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a63e747ef6fe4b3f97adb868a970ffce",
+            "uuid": "fc7102c37b3e4b16931810cb031c3338"
+          }
+        ],
+        [
+          "USB-B12-BRW",
+          1,
+          "USB-B-TH_USB-B12-BRW",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720550",
+            "BOM_Manufacturer": "XUNPU",
+            "BOM_Manufacturer Part": "USB-B12-BRW",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3bc4c42adc1d419cacfa471a006be93f",
+            "uuid": "081604101abb42e3b75ddb815d39e6e9"
+          }
+        ]
+      ],
+      "updateTime": 1629141167,
+      "createTime": 1629130056,
+      "histories": [],
+      "created_at": "2021-08-16 09:07:36",
+      "updated_at": "2021-08-16 12:12:47"
+    },
+    {
+      "uuid": "b6f29e198761eb093634f55d7cdc6b5b",
+      "puuid": "efc3b8a842592aa900cac5a0826336de",
+      "title": "PCB_AC_RTU_MCU",
+      "filename": "PCB_AC_RTU_MCU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a63e747ef6fe4b3f97adb868a970ffce": 1,
+        "3bc4c42adc1d419cacfa471a006be93f": 1,
+        "dabc6ccfdb174e6f9e0be2458f27b030": 1
+      },
+      "BOM": [],
+      "updateTime": 1629139534,
+      "createTime": 1629132857,
+      "histories": [],
+      "created_at": "2021-08-16 09:54:17",
+      "updated_at": "2021-08-16 11:45:34"
+    }
+  ],
+  "sort": [],
+  "title": "AC_RTU_MCU",
+  "foldername": "AC_RTU_MCU",
+  "schfilename": "AC_RTU_MCU.json",
+  "schfilemtime": 1629141167635
+}

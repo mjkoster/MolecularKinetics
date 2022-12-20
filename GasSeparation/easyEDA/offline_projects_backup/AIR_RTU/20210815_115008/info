@@ -1,0 +1,73 @@
+{
+  "uuid": "637a0c28ac3847e233d67c9757b26d4b",
+  "path": "Offline/AIR_RTU",
+  "name": "AIR_RTU",
+  "content": "",
+  "created_at": "2021-08-15 11:37:15",
+  "updated_at": "2021-08-15 11:50:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "10dd945832da951a39474b1c2da945ff",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "137c3ede2d674e0aaf68f206bc97c994": 12
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Screw_terminal_3P_5.08mm",
+          12,
+          "SCREW_TERMINAL_3P_5.08",
+          "J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12",
+          {
+            "BOM_Manufacturer Part": "E-Simpo",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Amazon",
+            "puuid": "7cef4af3dfbf4fa799f9cffb7b3cd239",
+            "uuid": "137c3ede2d674e0aaf68f206bc97c994"
+          }
+        ]
+      ],
+      "updateTime": 1629052961,
+      "createTime": 1629052797,
+      "histories": [],
+      "created_at": "2021-08-15 11:39:57",
+      "updated_at": "2021-08-15 11:42:41"
+    },
+    {
+      "uuid": "c0c6669b55f2b6e497fe3987476d422b",
+      "puuid": "637a0c28ac3847e233d67c9757b26d4b",
+      "title": "PCB_AIR_RTU",
+      "filename": "PCB_AIR_RTU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7cef4af3dfbf4fa799f9cffb7b3cd239": 12
+      },
+      "BOM": [],
+      "updateTime": 1629053408,
+      "createTime": 1629053184,
+      "histories": [],
+      "created_at": "2021-08-15 11:46:24",
+      "updated_at": "2021-08-15 11:50:08"
+    }
+  ],
+  "sort": [],
+  "title": "AIR_RTU",
+  "foldername": "AIR_RTU",
+  "schfilename": "AIR_RTU.json",
+  "schfilemtime": 1629052961691
+}

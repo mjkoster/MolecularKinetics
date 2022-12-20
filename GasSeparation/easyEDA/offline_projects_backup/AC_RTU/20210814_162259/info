@@ -1,0 +1,145 @@
+{
+  "uuid": "9d9440dddfd8d92467c9132d5350c552",
+  "path": "Offline/AC_RTU",
+  "name": "AC_RTU",
+  "content": "",
+  "created_at": "2021-08-14 09:25:47",
+  "updated_at": "2021-08-14 16:22:59",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d6653829cceea86feac00bd0be40df8a",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "031c1b6d7a6e39caa8bd65b1ea4ba767",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9fcdad81f3f34ed0b1c746a3500062eb": 1,
+        "da178a7d18ab4fad946d5a1c05f4179f": 10,
+        "3d6e7b0d434546549ca55b55e21957fe": 1,
+        "e74dd0bdab9f4a288683f8f7ec6e1e2f": 8,
+        "199184aca1b448f585a1ed810e1462b6": 1,
+        "137c3ede2d674e0aaf68f206bc97c994": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Screw Terminal",
+          8,
+          "H3-5.0-15.5X8.0MM",
+          "J3,J4,J5,J6,J7,J8,J9,J10",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "d7f0d494faad4a598339e6f26fe0da88",
+            "uuid": "e74dd0bdab9f4a288683f8f7ec6e1e2f"
+          }
+        ],
+        [
+          "Screw_terminal_3P_5.08mm",
+          2,
+          "SCREW_TERMINAL_3P_5.08",
+          "J11,J12",
+          {
+            "BOM_Manufacturer Part": "E-Simpo",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Amazon",
+            "puuid": "7cef4af3dfbf4fa799f9cffb7b3cd239",
+            "uuid": "137c3ede2d674e0aaf68f206bc97c994"
+          }
+        ],
+        [
+          "G3MB-202PL",
+          10,
+          "RELAY-TH_G3MB-202PL",
+          "K1,K2,K3,K4,K5,K6,K7,K8,K9,K10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "OMRON",
+            "BOM_Manufacturer Part": "G3MB-202PL",
+            "BOM_Supplier Part": "C48654",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "121b1c2b6a094b94a4eb04ad18a743fd",
+            "uuid": "da178a7d18ab4fad946d5a1c05f4179f"
+          }
+        ],
+        [
+          "09 18 516 7324",
+          1,
+          "918516X324",
+          "P2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ed55cefed58142a5bb1dd990104ad93c",
+            "uuid": "199184aca1b448f585a1ed810e1462b6"
+          }
+        ],
+        [
+          "KB20C06A",
+          1,
+          "SSR_PCB_KB20",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "7fdccef4c0f5492eb0b53bbb8c14a3da",
+            "uuid": "9fcdad81f3f34ed0b1c746a3500062eb"
+          }
+        ],
+        [
+          "HLK-PM01",
+          1,
+          "PWRM-TH_HLK-PM01",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C209903",
+            "BOM_Manufacturer": "HI-LINK",
+            "BOM_Manufacturer Part": "HLK-PM01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "66bc2b20fe8d4608a37166d19dc13366",
+            "uuid": "3d6e7b0d434546549ca55b55e21957fe"
+          }
+        ]
+      ],
+      "updateTime": 1628983379,
+      "createTime": 1628958596,
+      "histories": [],
+      "created_at": "2021-08-14 09:29:56",
+      "updated_at": "2021-08-14 16:22:59"
+    },
+    {
+      "uuid": "b6839e4c2be1a2e412986c1ac2b36310",
+      "puuid": "9d9440dddfd8d92467c9132d5350c552",
+      "title": "PCB_AC_RTU",
+      "filename": "PCB_AC_RTU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d7f0d494faad4a598339e6f26fe0da88": 10,
+        "121b1c2b6a094b94a4eb04ad18a743fd": 10,
+        "7fdccef4c0f5492eb0b53bbb8c14a3da": 1,
+        "66bc2b20fe8d4608a37166d19dc13366": 1,
+        "ed55cefed58142a5bb1dd990104ad93c": 1
+      },
+      "BOM": [],
+      "updateTime": 1628982212,
+      "createTime": 1628963206,
+      "histories": [],
+      "created_at": "2021-08-14 10:46:46",
+      "updated_at": "2021-08-14 16:03:32"
+    }
+  ],
+  "sort": [],
+  "title": "AC_RTU",
+  "foldername": "AC_RTU",
+  "schfilename": "AC_RTU.json",
+  "schfilemtime": 1628983379918
+}

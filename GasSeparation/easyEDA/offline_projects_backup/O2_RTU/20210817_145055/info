@@ -1,0 +1,162 @@
+{
+  "uuid": "9fbe5f06fc6a39a8e9004780f1cdb023",
+  "path": "Offline/O2_RTU",
+  "name": "O2_RTU",
+  "content": "RTU for the O2 Side and HMI of the O24U system",
+  "created_at": "2021-08-14 07:24:40",
+  "updated_at": "2021-08-17 14:50:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "636f3fca75dda5e744a438090f3f0940",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fc7102c37b3e4b16931810cb031c3338": 1,
+        "f1060a099e0e46428e1dc65ee5b996a3": 8,
+        "884e3f1c40ea4956913a37aed2f58ba2": 2,
+        "f45f196aa5aa475588bd1f46b2ec0596": 1,
+        "7bb5b439e98d4ab2b5f6590b2360126f": 1,
+        "0d28140272f64cc3adca92cc39ceb3ff": 1,
+        "cca30d5947f8459f8f8686d8e2c2e60f": 1,
+        "e981f7a85ac54f9b9ac276aeb45da08b": 4,
+        "8af5eaf87cd94f5ca4ee2d4b2c30c10d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 8 PIN",
+          1,
+          "HDR-TH_8P-P2.54-V_A2541HWV-8P",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C225505",
+            "BOM_Manufacturer": "Changjiang Connectors",
+            "BOM_Manufacturer Part": "A2541HWV-8P",
+            "puuid": "f3d56e252a14426796df926e980254c5",
+            "uuid": "0d28140272f64cc3adca92cc39ceb3ff"
+          }
+        ],
+        [
+          "MTA03-100",
+          8,
+          "10X03MTA",
+          "J1,J2,J3,J4,J5,J6,J7,J11",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9424057a108d4417835a6667114da06b",
+            "uuid": "f1060a099e0e46428e1dc65ee5b996a3"
+          }
+        ],
+        [
+          "MTA05-100",
+          2,
+          "10X05MTA",
+          "J8,J9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9c621537994c443fb65a6f5bcfacfd36",
+            "uuid": "884e3f1c40ea4956913a37aed2f58ba2"
+          }
+        ],
+        [
+          "MTA04-100",
+          1,
+          "10X04MTA",
+          "J10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f1e7a112ff2649d6a5d704348a8ad6fd",
+            "uuid": "7bb5b439e98d4ab2b5f6590b2360126f"
+          }
+        ],
+        [
+          "Mounting_Hole_PAD",
+          4,
+          "PAD-THT-C050",
+          "MK1,MK2,MK3,MK4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d87613ab98c4495fb0f40dae7e08672a",
+            "uuid": "e981f7a85ac54f9b9ac276aeb45da08b"
+          }
+        ],
+        [
+          "Mega_2560_Pro_Mini_(Working)",
+          1,
+          "ARDUINO_MEGA_2560_PRO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a63e747ef6fe4b3f97adb868a970ffce",
+            "uuid": "fc7102c37b3e4b16931810cb031c3338"
+          }
+        ],
+        [
+          "8 Pin Ribbon Connector",
+          1,
+          "8 PIN RIBBON CONNECTOR",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "cde2311b2a9247018a792f97c9b5eb1a",
+            "uuid": "f45f196aa5aa475588bd1f46b2ec0596"
+          }
+        ]
+      ],
+      "updateTime": 1629091813,
+      "createTime": 1628951437,
+      "histories": [],
+      "created_at": "2021-08-14 07:30:37",
+      "updated_at": "2021-08-15 22:30:13"
+    },
+    {
+      "uuid": "95b640787f16ba4a43c3a3374941562a",
+      "puuid": "9fbe5f06fc6a39a8e9004780f1cdb023",
+      "title": "PCB_O2_RTU",
+      "filename": "PCB_O2_RTU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f3d56e252a14426796df926e980254c5": 1,
+        "405b4840a8a6494486052d8d9422920e": 1,
+        "9424057a108d4417835a6667114da06b": 8,
+        "9c621537994c443fb65a6f5bcfacfd36": 2,
+        "f1e7a112ff2649d6a5d704348a8ad6fd": 1,
+        "a63e747ef6fe4b3f97adb868a970ffce": 1,
+        "cde2311b2a9247018a792f97c9b5eb1a": 1,
+        "d87613ab98c4495fb0f40dae7e08672a": 4,
+        "d6ad405b52c74c018892064ee78d595f": 1
+      },
+      "BOM": [],
+      "updateTime": 1629237055,
+      "createTime": 1628990104,
+      "histories": [],
+      "created_at": "2021-08-14 18:15:04",
+      "updated_at": "2021-08-17 14:50:55"
+    }
+  ],
+  "sort": [],
+  "title": "O2_RTU",
+  "foldername": "O2_RTU",
+  "schfilename": "O2_RTU.json",
+  "schfilemtime": 1629091813535
+}

@@ -1,0 +1,89 @@
+{
+  "uuid": "0dded8e55c7aed1dcffeaa509d2634e1",
+  "path": "Offline/Micro USB Adapter",
+  "name": "Micro USB Adapter",
+  "content": "",
+  "created_at": "2021-08-17 16:23:55",
+  "updated_at": "2021-08-17 17:15:51",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "677fed212f11880e26b83528fdfa03a4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "57f537b0d88575d2b363552504e2d977",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1f823445132c4fdb98ad6b593283ec06": 4,
+        "447a553f84a84b7faa4df8ea8fde1c20": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PINHD-1X1",
+          4,
+          "1X01",
+          "JP1,JP2,JP3,JP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f228b923ad514630b703b79d87c1f189",
+            "uuid": "1f823445132c4fdb98ad6b593283ec06"
+          }
+        ],
+        [
+          "6.8mm v8 micro usb b male connector solder connector Jack",
+          1,
+          "6.8MM V8 MICRO USB B MALE CONNECTOR SOLDER CONNECTOR JACK",
+          "NO",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Alibaba",
+            "BOM_Price": "0.03",
+            "BOM_Link": "https://www.alibaba.com/product-detail/dayu-V8-male-micro-usb-connector_62144921063.html?spm=a2700.details.maylikever.8.d7d3444cl4IPAo",
+            "puuid": "4da495b845154403995bb64231e50c5e",
+            "uuid": "447a553f84a84b7faa4df8ea8fde1c20"
+          }
+        ]
+      ],
+      "updateTime": 1629245751,
+      "createTime": 1629243035,
+      "histories": [],
+      "created_at": "2021-08-17 16:30:35",
+      "updated_at": "2021-08-17 17:15:51"
+    },
+    {
+      "uuid": "8b3bfb7a9d3facd4368e4de37bac0ebd",
+      "puuid": "0dded8e55c7aed1dcffeaa509d2634e1",
+      "title": "PCB_Micro USB Adapter",
+      "filename": "PCB_Micro USB Adapter.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4927f83504d54e6a99bb1b2c0febd094": 1,
+        "f228b923ad514630b703b79d87c1f189": 4
+      },
+      "BOM": [],
+      "updateTime": 1629244797,
+      "createTime": 1629243423,
+      "histories": [],
+      "created_at": "2021-08-17 16:37:03",
+      "updated_at": "2021-08-17 16:59:57"
+    }
+  ],
+  "sort": [],
+  "title": "Micro USB Adapter",
+  "foldername": "Micro USB Adapter",
+  "schfilename": "Micro USB Adapter.json",
+  "schfilemtime": 1629245751809
+}

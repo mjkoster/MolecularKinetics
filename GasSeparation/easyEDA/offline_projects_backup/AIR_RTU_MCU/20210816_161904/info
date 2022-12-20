@@ -1,0 +1,122 @@
+{
+  "uuid": "11be08aebf838f1a015f6d1b59e86eae",
+  "path": "Offline/AIR_RTU_MCU",
+  "name": "AIR_RTU_MCU",
+  "content": "",
+  "created_at": "2021-08-16 13:29:49",
+  "updated_at": "2021-08-16 16:19:04",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d115b591b60551e8e324fea6a8964114",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "213d060e6f634ff09402766377a77388": 1,
+        "081604101abb42e3b75ddb815d39e6e9": 1,
+        "fc7102c37b3e4b16931810cb031c3338": 1,
+        "7365f58ca6e948549e329ae4964c87f0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 5 PIN",
+          1,
+          "HEADER_5_PINS_0.100",
+          "H10",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "dabc6ccfdb174e6f9e0be2458f27b030",
+            "uuid": "213d060e6f634ff09402766377a77388"
+          }
+        ],
+        [
+          "FRC_26PIN",
+          1,
+          "FRC-26",
+          "PL1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36782bbee95b44bba11bfc6ec800e571",
+            "uuid": "7365f58ca6e948549e329ae4964c87f0"
+          }
+        ],
+        [
+          "Mega_2560_Pro_Mini_(Working)",
+          1,
+          "ARDUINO_MEGA_2560_PRO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a63e747ef6fe4b3f97adb868a970ffce",
+            "uuid": "fc7102c37b3e4b16931810cb031c3338"
+          }
+        ],
+        [
+          "USB-B12-BRW",
+          1,
+          "USB-B-TH_USB-B12-BRW",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C720550",
+            "BOM_Manufacturer": "XUNPU",
+            "BOM_Manufacturer Part": "USB-B12-BRW",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3bc4c42adc1d419cacfa471a006be93f",
+            "uuid": "081604101abb42e3b75ddb815d39e6e9"
+          }
+        ]
+      ],
+      "updateTime": 1629155792,
+      "createTime": 1629145841,
+      "histories": [],
+      "created_at": "2021-08-16 13:30:41",
+      "updated_at": "2021-08-16 16:16:32"
+    },
+    {
+      "uuid": "9cec5588fc25fda47da77b05074f788a",
+      "puuid": "11be08aebf838f1a015f6d1b59e86eae",
+      "title": "PCB_AIR_RTU_MCU_2",
+      "filename": "PCB_AIR_RTU_MCU_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dabc6ccfdb174e6f9e0be2458f27b030": 1,
+        "a63e747ef6fe4b3f97adb868a970ffce": 1,
+        "3bc4c42adc1d419cacfa471a006be93f": 1,
+        "36782bbee95b44bba11bfc6ec800e571": 1
+      },
+      "BOM": [],
+      "updateTime": 1629155944,
+      "createTime": 1629146115,
+      "histories": [],
+      "created_at": "2021-08-16 13:35:15",
+      "updated_at": "2021-08-16 16:19:04"
+    }
+  ],
+  "sort": [],
+  "title": "AIR_RTU_MCU",
+  "foldername": "AIR_RTU_MCU",
+  "schfilename": "AIR_RTU_MCU.json",
+  "schfilemtime": 1629155792307
+}
