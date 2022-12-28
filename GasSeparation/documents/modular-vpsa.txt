@@ -1,0 +1,12 @@
+The big ideas 
+- Modular VPSA for mid-scale (<2 mtpd) on-site oxygen production
+- High availability, remote management, scheduled maintenance
+
+PSA and VPSA - (diagram) Produce/regenerate cycle, alternating columns
+VPSA is more efficient, but uses a second pump for vacuum scavenging during regeneration (isotherm diagram w/PSA + VPSA regions)
+Capacity gap between portable machines and fixed plants - using compressed cylindrs and liquid O2
+
+Modular VPSA is composed of "system slices", each of which contains a single pump and column with dehydration and control
+VPSA cycle uses the pump as compressor during production and vacuum pump during regeneration
+
+
