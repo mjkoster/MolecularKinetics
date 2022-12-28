@@ -30,7 +30,7 @@ Integrated test-demonstration system:
 Research questions:
 - What is the optimum cycle timing for a range of scale multiples of slices and capacities?
 - What is the required dew point for compound media columns, with dessicant and mol sieve stages?
-- What are the tradeoffs between reversing pump rotation and valve shuttling for pressure/vaccum switching?
+- What are the tradeoffs between reversing pump rotation and valve shuttling for pressure/vacuum switching?
 - What is the effective digital twin design for gas separation applications?
 
 Development process:

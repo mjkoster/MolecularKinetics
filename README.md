@@ -1,5 +1,5 @@
-# Molecular Kinetics Project
+# Molecular Kinetics Projects
 
 ## Overview
 
-Fun with the van der Waals force
+Unit interactions at the molecular scale, incuding adsorption processes
