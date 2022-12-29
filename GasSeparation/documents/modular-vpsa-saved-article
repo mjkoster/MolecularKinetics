@@ -1,0 +1,78 @@
+This applied research project is focused on the capacity gap in on-site oxygen production, between small scale portable oxygen generators and industrial scale oxygen plants. Currently, options in this range predominantly consist of compressed gas cylinders and liquid oxygen, which must be periodically delivered and require skilled personnel to maintain. The required capacity in this range is up to 2-5 mtpd (metric tonnes per day).
+
+On-site production of oxygen typically uses PSA (Pressure Swing Adsorption) and VPSA (Vacuum-Pressure Swing Adsorption) technology. These techniques use a bed of molecular sieve in a produce/regenerate cycle, alternating production and regeneration between a pair of adsorbent beds. 
+
+
+
+
+
+
+
+
+Add alt text
+No alt text provided for this image
+Typical PSA System Operation
+Vacuum-Pressure Swing Adsorption is more efficient than PSA, and requires the use of a second pump for vacuum scavenging during regeneration, instead of recycling part of the produced oxygen to purge the bed during regeneration.
+
+
+
+
+
+
+
+
+Add alt text
+No alt text provided for this image
+Adsorption Isotherm Chart for Li-X Zeolite, PSA vs. VPSA Operation
+Modular VPSA is designed to bridge the mid-scale capacity gap, by arranging smaller scale components in a way to create a range of larger configured system capacity.
+
+Modular VPSA is composed of "system slices", each of which contains a single pump and column with dehydration and control
+
+The single pump is used as compressor during production and vacuum pump during regeneration.
+
+(MVPSA diagram)
+
+Production capacity is increased by adding slices to the system, and decreased by removing slices from the system. Spare slices are configured to automatically take over when a slice stops producing for any reason (scheduled maintenance, accidental shutdown, failed component...). Individual slices can be shut down when their production capacity isn't needed.
+
+Instrumentation and control on each slice updates a digital twin model with current operational conditions, allowing the model to be used to predict the health of each slice and schedule pre-emptive maintenance. Slices can be automatically and remotely shut down and started up, eliminating the need for on-site experts to maintain the system.
+
+Modular VPSA systems can be installed in ordinary non-industrial locations, like mezzanines, equipment sheds, and basements. Each slice can be powered by a readily available low voltage circuit, single phase or 3 phase 220 volts.
+
+Integrated test-demonstration system:
+
+
+
+
+
+
+
+
+Add alt text
+No alt text provided for this image
+Test/Demonstration System for Modular VPSA
+
+
+
+
+
+
+
+Add alt text
+No alt text provided for this image
+Test/Demonstration System for Modular VPSA
+Single slice to produce ~30 LPM of high purity oxygen
+VFD and PD pump using AMR300 Roots style blower
+Routing valves for vacuum/pressure switching
+Long column to configure compound media configurations
+16 inch control box with DIN rail components
+Research questions:
+
+What is the optimum cycle timing for a range of scale multiples of slices and capacities?
+What is the required dew point for compound media columns, with dessicant and mol sieve stages?
+What are the tradeoffs between reversing pump rotation and valve shuttling for pressure/vacuum switching?
+What is the effective digital twin design for gas separation applications?
+Development process:
+
+Integrated test-demonstration unit
+Test column for media testing and cycle profile development
+Reference PSA unit
